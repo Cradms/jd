@@ -31,7 +31,7 @@ const jyyurlArr = [], jyyhdArr = []
 let jyyurl = $.getdata('jyyurl')
 let jyyhd = $.getdata('jyyhd')
 let jyy = $.getjson('jyy', [])
-let tz = ($.getval('tz') || '1');//0关闭通知，1默认开启
+let tz = ($.getval('tz') || '0');//0关闭通知，1默认开启
 let jyykey = ''
 $.desc =''
 
